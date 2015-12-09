@@ -1,4 +1,4 @@
-FROM fpco/stack-build:lts-3.13_20151112
+FROM fpco/stack-build:lts-3.17_20151207
 RUN apt-get update -y && apt-get install -y nodejs npm
 RUN npm install -g n
 RUN n 4.0.0
